@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4182802587398909566}
+  m_Father: {fileID: 8717914967910376079}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6445305159278401882
 MonoBehaviour:
@@ -110,6 +110,30 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.45741
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2465
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.2633
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
       propertyPath: m_Name
       value: meuble haut cafet
@@ -117,26 +141,26 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -4216859302048453862, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5599909841142867869}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2735236961645974135}
+      addedObject: {fileID: 3833476120300314327}
   m_SourcePrefab: {fileID: 100100000, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
---- !u!1 &3550978793806984388 stripped
+--- !u!1 &5667525738585985180 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
   m_PrefabInstance: {fileID: 4433501052972714389}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2735236961645974135
+--- !u!114 &3833476120300314327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3550978793806984388}
+  m_GameObject: {fileID: 5667525738585985180}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c03aececfb72dfdc9bf61249874d5a0f, type: 3}
@@ -144,8 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScaleSw
   utiliserLaPosition: 0
   positionCible: {x: 0, y: 0, z: 0}
---- !u!4 &4182802587398909566 stripped
+--- !u!4 &8717914967910376079 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: b88384414cffd42c6a79c669b438c9f4, type: 3}
   m_PrefabInstance: {fileID: 4433501052972714389}
   m_PrefabAsset: {fileID: 0}

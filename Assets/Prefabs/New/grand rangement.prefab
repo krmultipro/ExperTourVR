@@ -64,6 +64,30 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.600361
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2464973
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.987378
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
       propertyPath: m_Name
       value: grand rangement
@@ -72,22 +96,22 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5311777075383653836}
+      addedObject: {fileID: 4085884451508061026}
   m_SourcePrefab: {fileID: 100100000, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
---- !u!1 &8781556481196650047 stripped
+--- !u!1 &450043098417007207 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9d7ad48ba16114740b3959383523afb2, type: 3}
   m_PrefabInstance: {fileID: 8439520053384991598}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5311777075383653836
+--- !u!114 &4085884451508061026
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8781556481196650047}
+  m_GameObject: {fileID: 450043098417007207}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c03aececfb72dfdc9bf61249874d5a0f, type: 3}

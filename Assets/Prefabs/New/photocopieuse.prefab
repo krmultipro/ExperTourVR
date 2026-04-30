@@ -64,6 +64,30 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.45741
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2465
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.2633
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
       propertyPath: m_Name
       value: photocopieuse
@@ -72,22 +96,22 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1295147398194793697}
+      addedObject: {fileID: 873633123914924778}
   m_SourcePrefab: {fileID: 100100000, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
---- !u!1 &4976539772784402395 stripped
+--- !u!1 &4247101474580511619 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: d259d7bb542cb4d85954f5a75f266ad2, type: 3}
   m_PrefabInstance: {fileID: 5319122105838068362}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1295147398194793697
+--- !u!114 &873633123914924778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4976539772784402395}
+  m_GameObject: {fileID: 4247101474580511619}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c03aececfb72dfdc9bf61249874d5a0f, type: 3}

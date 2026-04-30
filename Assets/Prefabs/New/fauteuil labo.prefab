@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2797798229317230507}
+  m_Father: {fileID: 7215834338167837530}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4976685300367182147
 MonoBehaviour:
@@ -110,6 +110,30 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.590384
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000000012583108
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.969425
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
       propertyPath: m_Name
       value: fauteuil labo
@@ -117,31 +141,26 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -4216859302048453862, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1144527627308906660}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7237354372644067627}
+      addedObject: {fileID: 6254884798808100487}
   m_SourcePrefab: {fileID: 100100000, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
---- !u!4 &2797798229317230507 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
-  m_PrefabInstance: {fileID: 2403092441685489728}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3285400143479424273 stripped
+--- !u!1 &5942661068543861065 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
   m_PrefabInstance: {fileID: 2403092441685489728}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7237354372644067627
+--- !u!114 &6254884798808100487
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3285400143479424273}
+  m_GameObject: {fileID: 5942661068543861065}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c03aececfb72dfdc9bf61249874d5a0f, type: 3}
@@ -149,3 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScaleSw
   utiliserLaPosition: 0
   positionCible: {x: 0, y: 0, z: 0}
+--- !u!4 &7215834338167837530 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 11d036833fd7246569cb00fabde5e4df, type: 3}
+  m_PrefabInstance: {fileID: 2403092441685489728}
+  m_PrefabAsset: {fileID: 0}
