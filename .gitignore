@@ -206,6 +206,6 @@ sysinfo.txt
 .ionide
 
 ###Settings 
-/Assets/XR/Settings/*
+Assets\XR\Settings\*
 
 # End of https://www.toptal.com/developers/gitignore/api/unity,visualstudiocode,jetbrains
