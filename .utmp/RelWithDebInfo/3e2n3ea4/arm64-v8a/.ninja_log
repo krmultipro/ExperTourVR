@@ -1,0 +1,10 @@
+# ninja log v5
+1	826	1777551636228873016	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	eb80a9b78b47a39b
+1	885	1777551636287365225	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	cfedd3c43c1f0963
+1	970	1777551636373239594	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	c006670eade29edb
+1	996	1777551636399503464	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f745e77bb9a986c2
+1	1004	1777551636409488508	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	79a90faf7f59db66
+2	1117	1777551636523219016	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	42f00a42fcca1034
+1	1216	1777551636621745259	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	20026083ba79f900
+0	1270	1777551636676328742	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	65df461ed7f2e4ab
+1270	1298	1777551636710371062	/home/yagami-dev/ProjectUnity/ExperTourVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3e2n3ea4/obj/arm64-v8a/libgame.so	98e833f24f3ce3ee
