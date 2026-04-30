@@ -1,10 +1,17 @@
 # ExperTourVR
-![alt text](logo_expernet.png)
 
+<p align="center">
+  <img src="logo_expernet.png" width="500">
+</p>
 
 <br>
 
-![alt text](experpote.png)
+<p align="center">
+  <img src="experpote.png" width="200">
+</p>
 
-## Room Tour des locaux du **Campus Informatique Expernet** en VR
-![alt text](icone_VR_user.png)
+  <h1 align="center">Room Tour des locaux du</br>
+  Campus Informatique Expernet en VR</h1>
+<p align="center">
+  <img src="icone_VR_user.png" width="150">
+</p>
