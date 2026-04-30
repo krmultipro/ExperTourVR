@@ -1,64 +1,75 @@
 # Utils - Scripts d'aide
 
-Ce dossier contient des scripts utilitaires pour manipuler rapidement des objets dans Unity et extraire des informations utiles pour l'analyse de scène/prefab.
+Ce dossier contient des scripts utilitaires classés par origine:
+- **MP** = scripts liés a **Magic Plan**
+- **SW** = scripts liés a **Sweet Home**
 
-## 1) `ScaleSW.cs` (`ScaleSw`)
+## MP - Magic Plan
 
-### A quoi sert ce script
-- Appliquer une **échelle fixe** à un objet (`0.01, 0.01, 0.01`).
-- Optionnellement repositionner l'objet avec une position cible.
-- Exécuter l'action manuellement depuis l'inspecteur via un bouton de menu contextuel.
+### `ScaleMP.cs` (`ScaleMp`)
+**But**
+- Normaliser les objets Magic Plan avec un scale fixe.
+- Recentrer l'objet a l'origine locale.
 
-### Comment ça fonctionne
-- Le script expose :
-  - `utiliserLaPosition` : active ou non le déplacement.
-  - `positionCible` : position locale à appliquer si l'option est activée.
-- La méthode `ExecuterTransformation()` :
-  - enregistre l'action dans l'Undo Unity (Ctrl+Z en éditeur),
-  - applique la scale fixe,
-  - applique la position si demandé,
-  - écrit un log de confirmation dans la console.
+**Ce que fait `ExecuterTransformation()`**
+- Applique `localScale = (10, 10, 10)`.
+- Applique `localPosition = (0, 0, 0)`.
+- Enregistre l'action dans l'Undo Unity (editeur).
+- Log de confirmation dans la console.
 
-### Comment l'utiliser
-1. Attacher `ScaleSw` à un GameObject.
-2. Régler les paramètres dans l'inspecteur (`utiliserLaPosition`, `positionCible`).
-3. Clic droit sur le composant -> `== APPLIQUER MAINTENANT ==`.
-
-### Cas d'usage typique
-- Corriger rapidement l'échelle d'objets importés (OBJ/FBX) trop grands.
-- Uniformiser la scale d'un lot d'objets.
+**Utilisation**
+1. Attacher `ScaleMp` au GameObject cible.
+2. Clic droit sur le composant.
+3. Lancer `== APPLIQUER MAINTENANT ==`.
 
 ---
 
-## 2) `GetHierarchy.cs` (`ExportHierarchyToLLM`)
+## SW - Sweet Home
 
-### A quoi sert ce script
-- Générer un **rapport texte complet de la hiérarchie** d'un objet (et de tous ses enfants).
-- Afficher pour chaque noeud :
-  - position locale,
-  - rotation locale,
-  - scale locale,
-  - taille monde (`Renderer.bounds.size`) si un `Renderer` est présent.
+### `ScaleSW.cs` (`ScaleSw`)
+**But**
+- Redimensionner un objet Sweet Home avec un scale fixe `0.01, 0.01, 0.01`.
+- Optionnel: appliquer aussi une position locale cible.
 
-### Comment ça fonctionne
-- Au démarrage (`Start`), le script :
-  1. écrit un marqueur de début dans la console,
-  2. parcourt récursivement la hiérarchie,
-  3. construit une chaîne formatée lisible,
-  4. affiche le résultat puis un marqueur de fin.
+**Parametres**
+- `utiliserLaPosition`: active/desactive le repositionnement.
+- `positionCible`: position locale appliquee si l'option est active.
 
-### Comment l'utiliser
-1. Attacher `ExportHierarchyToLLM` au parent/racine que tu veux analyser.
-2. Lancer la scène (`Play`).
-3. Copier le rapport affiché dans la console Unity.
+**Ce que fait `ExecuterTransformation()`**
+- Applique le scale fixe.
+- Applique la position cible si activee.
+- Enregistre l'action dans l'Undo Unity (editeur).
+- Log de confirmation dans la console.
 
-### Cas d'usage typique
-- Documenter la structure d'un prefab.
-- Vérifier les transformations locales de chaque enfant.
-- Préparer une description exploitable dans une discussion technique/LLM.
+**Utilisation**
+1. Attacher `ScaleSw` au GameObject cible.
+2. Regler `utiliserLaPosition` et `positionCible` si besoin.
+3. Clic droit sur le composant.
+4. Lancer `== APPLIQUER MAINTENANT ==`.
 
 ---
 
-## Notes
-- Ces scripts sont des outils de support pour l'édition et le diagnostic.
-- Si tu veux, je peux aussi ajouter un petit script "launcher" pour appliquer `ScaleSw` sur plusieurs objets sélectionnés d'un coup.
+## Outils generaux (diagnostic/edition)
+
+### `GetHierarchy.cs` (`ExportHierarchyToLLM`)
+**But**
+- Exporter la hierarchie complete d'un objet (parent + enfants) en texte.
+- Inclure position, rotation, scale locales et taille monde si renderer present.
+
+**Utilisation**
+1. Attacher `ExportHierarchyToLLM` sur la racine a analyser.
+2. Passer la scene en `Play`.
+3. Recuperer le rapport dans la console Unity.
+
+### `LockObject.cs` (`LockHierarchy`)
+**But**
+- Verrouiller un objet et tous ses enfants en edition pour eviter les manipulations accidentelles.
+
+**Fonctionnement**
+- En `OnEnable`, applique `HideFlags.NotEditable` sur toute la hierarchie.
+- Menu contextuel `Unlock All` pour supprimer le verrou (`HideFlags.None`).
+
+**Utilisation**
+1. Attacher `LockHierarchy` sur le parent a proteger.
+2. Activer le composant pour verrouiller.
+3. Clic droit > `Unlock All` pour deverrouiller.
