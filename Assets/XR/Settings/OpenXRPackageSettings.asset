@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90ae1e8c3c7a542bba339faf2e771c5a, type: 3}
-  m_Name: AndroidXRSupportFeature Standalone
+  m_Name: AndroidXRSupportFeature Android
   m_EditorClassIdentifier: Unity.XR.AndroidOpenXR::UnityEngine.XR.OpenXR.Features.Android.AndroidXRSupportFeature
   m_enabled: 0
   nameUi: Android XR Support
@@ -507,17 +507,17 @@ MonoBehaviour:
   features:
   - {fileID: 8736661028334727731}
   - {fileID: 3598254934845347770}
-  - {fileID: 2131439300900268862}
-  - {fileID: -9210451454488865335}
+  - {fileID: 3124120106208817195}
+  - {fileID: -8532388448729762789}
   - {fileID: 1170704673688743257}
-  - {fileID: -825620159837405566}
-  - {fileID: 6459577980788541932}
-  - {fileID: 619219149006288413}
+  - {fileID: 6227865105079678368}
+  - {fileID: -1740313698458298472}
+  - {fileID: -1820223698829884172}
   - {fileID: 5153017048313567732}
-  - {fileID: 6575354136911876153}
-  - {fileID: 354285518666031492}
+  - {fileID: 517140420911416795}
+  - {fileID: -1915848245285547846}
   - {fileID: -1559649543197422996}
-  - {fileID: 2657780902160507235}
+  - {fileID: 4767169923754772151}
   - {fileID: -3433847960031015668}
   - {fileID: 6481653220666705815}
   - {fileID: 7393116930172532905}
@@ -1234,8 +1234,8 @@ MonoBehaviour:
   features:
   - {fileID: 7011443450567333355}
   - {fileID: -671281728444007487}
-  - {fileID: -901939997048047619}
-  - {fileID: -1734471456787174204}
+  - {fileID: 3124120106208817195}
+  - {fileID: -8532388448729762789}
   - {fileID: 8980318060753866109}
   - {fileID: -6559185765804338520}
   - {fileID: -4756202077021157709}
@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12d3bf61b014a48a2b7564c61da9d7ad, type: 3}
-  m_Name: AndroidXRPerformanceMetrics Standalone
+  m_Name: AndroidXRPerformanceMetrics Android
   m_EditorClassIdentifier: Unity.XR.AndroidOpenXR::UnityEngine.XR.OpenXR.Features.Android.AndroidXRPerformanceMetrics
   m_enabled: 0
   nameUi: Android XR Performance Metrics
