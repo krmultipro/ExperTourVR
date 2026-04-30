@@ -205,7 +205,13 @@ sysinfo.txt
 .history
 .ionide
 
+<<<<<<< HEAD
 ###Settings 
 Assets\XR\Settings\*
 
 # End of https://www.toptal.com/developers/gitignore/api/unity,visualstudiocode,jetbrains
+=======
+# End of https://www.toptal.com/developers/gitignore/api/unity,visualstudiocode,jetbrains
+
+Assets/XR/Settings/OpenXRPackageSettings.asset
+>>>>>>> ce2a644048102cd624a5a03b59ea9c95cc69f502
